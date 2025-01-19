@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  background-color: black;
+}
+main h1{
+  padding: 20px;
+}
+/*pagina principal*/
+#navbar-index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 80px;
+  list-style: none;
+}
+#navbar-index a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(226, 43, 43);
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 0.1s ease;
+}
+
+#navbar-index a:hover {
+  background-color: rgba(212, 44, 44, 0.2);
+}
+
+#navbar-index a:active {
+  background-color: green;
+}
+
+/*primer ejercicio*/
+#section-pag1 {
+  margin: 30px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+#section-pag1 img {
+  width: 50%;
+}
+#navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 80px;
+  list-style: none;
+}
+#navbar a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(226, 43, 43);
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 0.1s ease;
+}
+
+#navbar a:hover {
+  background-color: rgba(212, 44, 44, 0.2);
+}
+
+#navbar a:active {
+  background-color: green;
+}
+
+
+/*segundo ejercicio*/
+#seccion-stickers{
+  display:flex;
+  gap: 10px;
+}
+#seccion-stickers input{
+  width: min-content;
+  background-color: azure;
+  color: black;
+}
+
+
+.sticker1,.sticker2, .sticker3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.sticker1 img, .sticker2 img, .sticker3 img{
+width: 300px;
+height: 320px;
+}
+#mensaje{
+  border-radius: 10px;
+  padding: 15px;
+}
+#btn-pag2{
+background-color:rgb(176, 173, 173);
+color:azure;
+cursor: pointer;
+
+}
+
+#btn-pag2:hover{
+opacity: 0.9;
+}
+
+/*tercer ejercicio*/
+main h1{
+    color: azure;
+}
+main{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#btn-pag3{
+    background-color:rgb(176, 173, 173);
+    color:azure;
+   cursor: pointer;
+  
+}
+
+#btn-pag3:hover{
+    opacity: 0.9;
+
+}
+.select{
+    background-color: azure;
+    border-radius: 10%;
+    cursor: pointer;
+    
+
+}
+.select option{
+    background-color: azure;
+}
+#span{
+    color: azure;
+    size: 20px;
+}
+
